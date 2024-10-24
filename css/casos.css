@@ -161,10 +161,10 @@ h1 {
 
   .introduccion {
     padding: 120px 40px;
-    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
   }
 
   .introduccion:after {
