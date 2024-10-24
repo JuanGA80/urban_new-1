@@ -233,7 +233,8 @@ h1 {
   h1 {
     text-align: center;
     color: #1161a0;
-    font-size: 40px;
+    font-size: 45px;
+    margin-bottom: 30px;
   }
 
   .titulos h4 {
@@ -247,7 +248,8 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: space-evenly;
-    padding: 0px;
+    padding: 30px;
+    max-width: 1280px;
   }
 
   .introduccion-img-container {
@@ -257,7 +259,7 @@ h1 {
 
   .introduccion-text-container {
     width: 100%;
-    padding: 40px;
+    padding: 20px;
   }
 
   .introduccion-text {
@@ -267,7 +269,8 @@ h1 {
 
   .beneficios {
     box-sizing: border-box;
-    padding: 20px;
+    padding: 20px 50px;
+    max-width: 100%;
   }
 
 
@@ -310,9 +313,10 @@ h1 {
   .beneficios-image-container {
     padding: 20px;
     width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
   }
 
   .beneficios-image {
@@ -320,8 +324,8 @@ h1 {
   }
 
   .procesos {
-    padding: 40px;
-
+    padding: 20px 50px;
+    max-width: 1280px;
   }
 
   .procesos-title {
@@ -384,6 +388,7 @@ h1 {
 
   .cta {
     margin-top: 40px;
+    max-width: 100%;
   }
 
   /*  */
